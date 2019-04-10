@@ -1,0 +1,34 @@
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;    
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: #aaa;
+}
+
+.reload{
+  position: absolute; 
+  right:15px;
+  top:15px;
+  height: 6vmin;
+  animation: logo-spin infinite 10s linear;
+  cursor:pointer;
+}
+
+.reload:hover{
+  height: 7vmin;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

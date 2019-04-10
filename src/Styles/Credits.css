@@ -1,0 +1,18 @@
+
+.credits{
+  position: absolute; 
+  right:15px;
+  bottom:15px;
+  font-size: xx-small;
+  color: white;
+  background:rgba(0,0,0,0.7);
+  padding: .2em .4em;
+}
+
+.credits a {
+  color: white;
+  text-decoration: none;
+  font-size: xx-small;
+}
+.credits a:hover {
+font-weight: bold;}

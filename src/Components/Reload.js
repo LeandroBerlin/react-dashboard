@@ -4,7 +4,7 @@ import "../Styles/Reload.css"
 
 const Reload = (props) => {
     return (
-    <img src={svgIcon} className="reload" alt="logo" onClick={props.imageClick} />
+        <img src={svgIcon} className="reload" alt="logo" onClick={props.imageClick} />
     )
 }
 

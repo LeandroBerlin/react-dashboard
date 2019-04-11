@@ -1,3 +1,35 @@
+# React Dashboard
+A React dashboard app!
+
+Features:
+- [Dynamic](https://unsplash.com) Background API
+- Clock widget
+- TodoList widget
+- [Quotes](https://favqs.com/) API from 
+
+## Screenshot
+
+<img src="screenshot.png" alt="screenshot" width="200"/>
+
+## Setup
+- Clone this repository
+- Move inside the project directory
+`cd react-dashboard`
+- Install dependency
+`npm i` or `yarn`
+- Run the app
+`npm start` or `yarn start`
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

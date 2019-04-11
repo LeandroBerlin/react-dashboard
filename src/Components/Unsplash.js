@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import reload from "../reload.svg";
+import Reload from "./Reload";
 import Clock from './Clock';
 import Credits from './Credits';
 import Image from './Image';
@@ -46,7 +46,7 @@ export class Unsplash extends Component {
         return (
             <div className="container">
                 <Clock />
-                <img src={reload} className="reload" alt="logo" onClick={this.imageClick} />
+                <Reload imageClick={this.imageClick} />
                 <MemoList />
                 <Image src={this.state.src} />
                 <Quote />

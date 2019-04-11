@@ -1,0 +1,16 @@
+.qod{
+  position: absolute; 
+  bottom: 50px;
+  left: 20%;
+  font-size: 30px;
+  color: white;
+  width: 60%;
+}
+
+
+.qod p{
+  margin-top: 10px;
+  margin-right: 80px;
+  font-size: 23px;
+  text-align:right;
+}

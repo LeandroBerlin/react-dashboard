@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import "../Styles/Qod.css"
+import "../Styles/Quote.css"
 
 
 export class Quote extends Component {
@@ -8,7 +8,8 @@ export class Quote extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            src: ''
+            quote: '',
+            author: ''
         };
     }
 
